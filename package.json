@@ -9,9 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@babel/preset-react": "^7.16.7",
+    "@emotion/babel-plugin": "^11.7.2",
+    "@emotion/babel-preset-css-prop": "^11.2.0",
+    "@emotion/css": "^11.7.1",
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "babel-plugin-module-resolver": "^4.1.0",
     "next": "12.1.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "styled-system": "^5.1.5"
   },
   "devDependencies": {
     "eslint": "8.11.0",
