@@ -9,6 +9,7 @@ const themes = {
         cyan:"#2ACFCF",
         purple:"#4B3F6B"
       },
+    breakpoints:['40em','90em']
 }
 
 export default themes;

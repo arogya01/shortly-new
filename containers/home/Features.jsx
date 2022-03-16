@@ -9,7 +9,8 @@ const Cards = () => {
     <Flex
       position="relative"
       py="3rem"
-      mx="1rem"
+      mx={[0, "1rem"]}
+      my={["2rem",0]}
       flexDirection="column"
       flexWrap="wrap"
       borderRadius={4}
@@ -49,7 +50,7 @@ export default function Features() {
         py="4rem"
         
       >
-        <Box textAlign="center" pb="4rem">
+        <Box textAlign="center" pb="4rem" px={["2rem"," "]}>
           <Box as="h2" fontWeight={800} fontSize="1.5rem">
             Advanced Statistics
           </Box>
@@ -59,7 +60,7 @@ export default function Features() {
           </Box>
         </Box>
 
-        <Flex flexDirection="row" flexWrap="nowrap" px="16rem">
+        <Flex flexDirection={["column","row"]} flexWrap="nowrap" px={["2rem", "16rem"]}>
           <Cards />
           <Cards />
           <Cards />
