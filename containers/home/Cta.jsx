@@ -10,13 +10,13 @@ export default function Cta() {
         justifyContent="center"
         alignItems="center"
         position="relative"
-        mx={["2rem", "16rem"]}
-        mb={["12rem"]}
-        height={168}
+        mx={["2rem", 0]}
+        mb={[0]}
+        height={250}
         css={css`
           background-image: url("/images/bg-boost-mobile.svg");
           background-repeat: no-repeat;
-          border-radius: 10px;
+          
           background-color: #3b3054;
 
           @media screen and (min-width: 40em) {
@@ -31,19 +31,22 @@ export default function Cta() {
           flexWrap="wrap"
           alignItems="center"
         >
-          <Box as="p" color="white">
-            Get Your links Shortened Now
+          <Box as="p" color="white" fontSize={36} fontWeight={700} m={20}>
+            Boost your links today
           </Box>
-          <Box pt="1rem">
+          <Box >
             <Button
-              borderRadius={32}
-              px="2rem"
+              borderRadius={36}
+              px="2.5rem"
+              py="0.5rem"
               bg="cyan"
               fontFamily="Poppins"
-              fontWeight={800}
+              fontWeight={600}
               border="none"
+              color="white"
+              fontSize={20}
             >
-              Login
+              Get Started
             </Button>
           </Box>
         </Flex>

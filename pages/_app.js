@@ -1,6 +1,6 @@
 import { ThemeProvider } from '@emotion/react'
 import '../styles/globals.css'
-import themes from '../styles/themes'
+import themes from '../lib/themes'
 
 function MyApp({ Component, pageProps }) {
   return (

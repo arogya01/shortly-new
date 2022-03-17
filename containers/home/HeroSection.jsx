@@ -7,25 +7,25 @@ export default function HeroSection() {
     <Container>
       <Flex
         as="section"
-        pl={["2rem", "16rem"]}
-        pr={["2rem", " "]}
+        pl={["2rem", "10rem"]}
+        pr={["2rem", 0]}
         pb="4rem"
         flexDirection={["column-reverse","row"]}
-
+        alignItems="center"
         flexWrap="nowrap"
       >
-        <Flex flexDirection="column" flexWrap="wrap" textAlign={["center"]}>
-          <Box fontWeight={800} fontSize={[28,42]}>
+        <Flex flexDirection="column" flexWrap="wrap" textAlign={["center", "initial"]}>
+          <Box fontWeight={700} color="fontBlack" lineHeight={1.2} fontSize={[28,68]} letterSpacing={-2}>
             <Box as="p" m={0}>
-              More than Just
+              More than just
             </Box>
             <Box as="p" m={0}>
               Shorter Links
             </Box>
           </Box>
-          <Box color="gray" fontSize={[14,20]}>
+          <Box color="gray" fontSize={[14,18]} lineHeight={1.5}>
             <Box as="p">
-              Build your brand's recognition and get detailed insight <br />{" "}
+              Build your brand's recognition and get detailed <br/> insights
               into how the links are performing
             </Box>
           </Box>
@@ -38,6 +38,8 @@ export default function HeroSection() {
               fontWeight={600}
               bg="cyan"
               border="none"
+              fontSize="1rem"
+              color="white"
             >
               Get Started
             </Button>

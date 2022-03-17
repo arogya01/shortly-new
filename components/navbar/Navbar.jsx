@@ -11,13 +11,14 @@ export default function Navbar() {
       <Flex
         flexDirection="row"
         flexWrap="nowrap"
-        px={["2rem", "16rem"]}
-        pt="1rem"
-        pb="4rem"
+        px={["2rem", "10rem"]}
+        pt="3rem"
+        pb="1rem"
+        alignItems="center"
         justifyContent={["space-between"," "]}
       >
         <Box pr="1rem">
-          <Image src={Logo} alt="lgo" width={152} height={44} layout="fixed" />
+          <Image src={Logo} alt="lgo" width={140} height={36} layout="fixed" />
         </Box>
         <Box 
          css={css`
@@ -45,6 +46,7 @@ export default function Navbar() {
           flexWrap="nowrap"
           px="2rem"
           justifyContent="space-between"
+          fontWeight={700}
         >
           <Box as="p" color="gray" px="0.5rem">
             Features
@@ -68,23 +70,27 @@ export default function Navbar() {
        `}
         >
           <Button
+          color="gray"
             borderRadius={32}
             px="2rem"
             fontFamily="Poppins"
-            fontWeight={800}
+            fontWeight={700}
             border="none"
+            bg="white"
           >
             Login
           </Button>
           <Button
             borderRadius={32}
-            px="2rem"
+            px="1.5rem"
+            py="0.5rem"
             fontFamily="Poppins"
             fontWeight={600}
             bg="cyan"
             border="none"
+            color="white"
           >
-            Signup
+            Sign up
           </Button>
         </Flex>
       </Flex>
