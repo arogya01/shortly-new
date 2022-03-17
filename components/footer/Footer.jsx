@@ -13,7 +13,7 @@ export default function Footer() {
         flexDirection="row"
         flexWrap="nowrap"
         justifyContent="space-between"
-        py="4rem"
+        py="6rem"
         px="10rem"
       >
         <Box pr="1rem">

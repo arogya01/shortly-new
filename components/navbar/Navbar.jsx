@@ -13,7 +13,7 @@ export default function Navbar() {
         flexWrap="nowrap"
         px={["2rem", "10rem"]}
         pt="3rem"
-        pb="1rem"
+        pb="3rem"
         alignItems="center"
         justifyContent={["space-between"," "]}
       >

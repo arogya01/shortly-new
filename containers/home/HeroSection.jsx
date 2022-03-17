@@ -2,6 +2,9 @@ import { Box, Button, Container, Flex } from "../../components/lib";
 import Image from "next/image";
 import working from "../../public/images/working.svg";
 import { css } from "@emotion/react";
+import { Working }from '../../components/WorkingSvg';
+
+
 export default function HeroSection() {
   return (
     <Container>
@@ -14,8 +17,8 @@ export default function HeroSection() {
         alignItems="center"
         flexWrap="nowrap"
       >
-        <Flex flexDirection="column" flexWrap="wrap" textAlign={["center", "initial"]}>
-          <Box fontWeight={700} color="fontBlack" lineHeight={1.2} fontSize={[28,68]} letterSpacing={-2}>
+        <Flex flexDirection="column" flexWrap="wrap" width={1/2} textAlign={["center", "initial"]}>
+          <Box fontWeight={700} color="fontBlack" lineHeight={1.2} fontSize={[28,80]} letterSpacing={-2}>
             <Box as="p" m={0}>
               More than just
             </Box>
@@ -46,8 +49,25 @@ export default function HeroSection() {
           </Box>
         </Flex>
 
-        <Box>
-          <Image src={working} alt="working" />
+        <Box  css={
+          css`
+            position:relative;
+           
+            width:733px;
+            height:482px;
+            overflow:hidden;
+            margin-left:4.5rem;
+          `
+        }>
+          <Box css={
+          css`
+            position:absolute;
+            left:8rem;
+            top:0;
+          `
+        }>
+        <Working />
+          </Box>
         </Box>
       </Flex>
     </Container>

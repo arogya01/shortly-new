@@ -1,8 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="733" height="482">
+export const Working = () => {
+    return(
+        <svg xmlns="http://www.w3.org/2000/svg" width="733" height="482">
     <defs>
         <linearGradient id="a" x1="0%" x2="100%" y1="50%" y2="50%">
-            <stop offset="0%" stop-color="#183866" />
-            <stop offset="100%" stop-color="#1A7FC1" />
+            <stop offset="0%" stopColor="#183866" />
+            <stop offset="100%" stopColor="#1A7FC1" />
         </linearGradient>
         <linearGradient id="b" x1="-.13%" x2="100%" y1="50.057%" y2="50.057%">
             <stop offset="0%" />
@@ -33,8 +35,8 @@
             <stop offset="100%" stop-opacity="0" />
         </linearGradient>
         <linearGradient id="i" x1="14.169%" x2="114.168%" y1="-41.335%" y2="-41.335%">
-            <stop offset="0%" stop-color="#183866" />
-            <stop offset="100%" stop-color="#1A7FC1" />
+            <stop offset="0%" stopColor="#183866" />
+            <stop offset="100%" stopColor="#1A7FC1" />
         </linearGradient>
         <linearGradient id="j" x1="40.386%" x2="71.43%" y1="39.515%" y2="67.977%">
             <stop offset="0%" />
@@ -65,23 +67,23 @@
             <stop offset="99%" stop-opacity="0" />
         </linearGradient>
         <linearGradient id="q" x1="-.04%" x2="99.996%" y1="49.993%" y2="49.993%">
-            <stop offset="0%" stop-color="#ECC4D7" />
-            <stop offset="42%" stop-color="#EFD4D1" />
-            <stop offset="100%" stop-color="#F2EAC9" />
+            <stop offset="0%" stopColor="#ECC4D7" />
+            <stop offset="42%" stopColor="#EFD4D1" />
+            <stop offset="100%" stopColor="#F2EAC9" />
         </linearGradient>
         <linearGradient id="r" x1="99.032%" x2="199.03%" y1="-163.287%" y2="-163.287%">
-            <stop offset="0%" stop-color="#ECC4D7" />
-            <stop offset="42%" stop-color="#EFD4D1" />
-            <stop offset="100%" stop-color="#F2EAC9" />
+            <stop offset="0%" stopColor="#ECC4D7" />
+            <stop offset="42%" stopColor="#EFD4D1" />
+            <stop offset="100%" stopColor="#F2EAC9" />
         </linearGradient>
         <linearGradient id="s" x1="124.306%" x2="224.306%" y1="-84.564%" y2="-84.564%">
-            <stop offset="0%" stop-color="#ECC4D7" />
-            <stop offset="42%" stop-color="#EFD4D1" />
-            <stop offset="100%" stop-color="#F2EAC9" />
+            <stop offset="0%" stopColor="#ECC4D7" />
+            <stop offset="42%" stopColor="#EFD4D1" />
+            <stop offset="100%" stopColor="#F2EAC9" />
         </linearGradient>
         <linearGradient id="t" x1="128.89%" x2="24.06%" y1="100.36%" y2="153.095%">
-            <stop offset="0%" stop-color="#362958" stop-opacity=".501" />
-            <stop offset="100%" stop-color="#34313D" stop-opacity="0" />
+            <stop offset="0%" stopColor="#362958" stop-opacity=".501" />
+            <stop offset="100%" stopColor="#34313D" stop-opacity="0" />
         </linearGradient>
         <linearGradient id="u" x1="3990.942%" x2="3874.36%" y1="-34225.187%" y2="-34268.317%">
             <stop offset="0%" />
@@ -145,3 +147,5 @@
         <path fill="url(#u)" d="M263 389c-.881 1.001-1.29 1.37-.77.547.27-.159.527-.342.77-.547z" />
     </g>
 </svg>
+    )
+}
